@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - 10
+
+script:
+  - npm run build
+
+before_deploy: "cd build"
+deploy:
+  skip_cleanup: true
+  provider: 'npm'
+  email: 'kdojeteri@gmail.com'
+  api_key: $NPM_API_KEY
+  on:
+    branch: master

@@ -1,0 +1,72 @@
+{
+  "name": "lingui-router",
+  "version": "0.3.0",
+  "description": "Add internationalization to React Router using https://lingui.js.org by Teri Hornych",
+  "author": "peping / ENGETO",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filipholec/lingui-router"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=5"
+  },
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "react-router",
+    "lingui",
+    "babel-plugin-macros"
+  ],
+  "scripts": {
+    "test": "cross-env CI=1 react-scripts-ts test --env=jsdom",
+    "test:watch": "react-scripts-ts test --env=jsdom",
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "dependencies": {
+    "@lingui/conf": "^3.17.2",
+    "glob": "^9.2.1",
+    "path-to-regexp": "^6.2.1",
+    "ramda": "^0.28.0"
+  },
+  "peerDependencies": {
+    "react": ">=15",
+    "react-dom": ">=15",
+    "react-router": ">=4",
+    "react-router-dom": ">=4",
+    "@lingui/core": ">=2",
+    "@lingui/react": ">=2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/runtime": "^7.21.0",
+    "@lingui/core": "^3.17.2",
+    "@lingui/react": "^3.17.2",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-url": "^8.0.1",
+    "@svgr/rollup": "^6.5.1",
+    "@types/lingui__core": "^3.0.0",
+    "@types/lingui__react": "^3.0.0",
+    "@types/node": "^18.14.5",
+    "@types/ramda": "^0.28.23",
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@types/history": "^4.7.11",
+    "cross-env": "^7.0.3",
+    "history": "^4.10.1",
+    "react": "^17",
+    "react-dom": "^17",
+    "react-router": "^6.8.2",
+    "react-router-dom": "^6.8.2",
+    "rollup": "^3.18.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.5",
+    "react-is": "latest"
+  },
+  "files": [
+    "src"
+  ]
+}
