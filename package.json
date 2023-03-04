@@ -1,12 +1,12 @@
 {
-  "name": "lingui-router",
+  "name": "lingui-router-v3",
   "version": "0.3.0",
   "description": "Add internationalization to React Router using https://lingui.js.org by Teri Hornych",
   "author": "peping / ENGETO",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/filipholec/lingui-router"
+    "url": "https://github.com/filipholec/lingui-router-v3"
   },
   "engines": {
     "node": ">=10",
